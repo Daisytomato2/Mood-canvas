@@ -1,23 +1,23 @@
 # Mood-canvas
 
-# 🎨 Emotion-Based Color Interface
+#  Emotion-Based Color Interface
 
 An interactive Tkinter application that changes its background color and displays emojis based on your emotion.  
 Enter an emotion like “happy”, “sad”, or “angry” and see your mood visualized 🌈
 
----
 
-## 🧠 Features
 
-- 💬 **Emotion Recognition**: Automatically detect and map your input to a standard emotion, including synonyms.  
-- 🎨 **Dynamic Background**: Changes the interface color according to the detected emotion.  
-- 😄 **Emoji Animation**: Randomly display multiple emojis to enhance the mood.  
-- 🧩 **Fuzzy Matching**: Recognizes emotions even if the spelling is slightly off (e.g., “happpy”).  
-- 🧾 **Wide Emotion Support**: Includes 20+ basic emotions and many synonyms.
+##  Features
 
----
+-  **Emotion Recognition**: Automatically detect and map your input to a standard emotion, including synonyms.  
+-  **Dynamic Background**: Changes the interface color according to the detected emotion.  
+-  **Emoji Animation**: Randomly display multiple emojis to enhance the mood.  
+-  **Fuzzy Matching**: Recognizes emotions even if the spelling is slightly off (e.g., “happpy”).  
+-  **Wide Emotion Support**: Includes 20+ basic emotions and many synonyms.
 
-## 🧩 Supported Emotions
+
+
+##  Supported Emotions
 
 - 😄 **Happy** – joyful, glad, cheerful  
 - 😢 **Sad** – melancholy, down, blue  
@@ -40,9 +40,9 @@ Enter an emotion like “happy”, “sad”, or “angry” and see your mood v
 - 🤢 **Sick** – ill, unwell  
 - 💪 **Determined** – focused, persistent
 
----
 
-## 🧠 How It Works
+
+## � How It Works
 
 - **Emotion Mapping**:  
   A dictionary (`emotion_aliases`) maps many emotion synonyms to standard emotion categories.
@@ -56,11 +56,5 @@ Enter an emotion like “happy”, “sad”, or “angry” and see your mood v
 - **User Interface**:  
   Simple Tkinter UI with input box, button, and status label.
 
----
 
-## 🛠️ File Structure
-
-- `emotion_color_interface.py` – Main application file  
-- `README.md` – Project description  
-- `screenshot.png` – Optional screenshot of the app
 
