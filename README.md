@@ -41,7 +41,7 @@ Enter an emotion like “happy”, “sad”, or “angry” and see your mood v
 
 
 
-## � How It Works
+##  How It Works
 
 - **Emotion Mapping**:  
   A dictionary (`emotion_aliases`) maps many emotion synonyms to standard emotion categories.
