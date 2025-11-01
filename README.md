@@ -1,9 +1,8 @@
 # Mood-canvas
 
-#  Emotion-Based Color Interface
 
 An interactive Tkinter application that changes its background color and displays emojis based on your emotion.  
-Enter an emotion like “happy”, “sad”, or “angry” and see your mood visualized 🌈
+Enter an emotion like “happy”, “sad”, or “angry” and see your mood visualized �
 
 
 
