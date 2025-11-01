@@ -17,4 +17,50 @@ Enter an emotion like “happy”, “sad”, or “angry” and see your mood v
 
 ---
 
+## 🧩 Supported Emotions
+
+- 😄 **Happy** – joyful, glad, cheerful  
+- 😢 **Sad** – melancholy, down, blue  
+- 😡 **Angry** – mad, furious, irritated  
+- 😌 **Relaxed** – calm, peaceful, chill  
+- 😰 **Anxious** – nervous, worried, stressed  
+- 🥰 **Love** – affectionate, caring  
+- 😐 **Bored** – uninterested, uninspired  
+- 😕 **Confused** – puzzled, lost  
+- 🤩 **Excited** – thrilled, elated  
+- 😴 **Tired** – sleepy, fatigued  
+- 😱 **Scared** – afraid, terrified  
+- 🙏 **Grateful** – thankful, appreciative  
+- 😎 **Confident** – proud, bold  
+- 😳 **Embarrassed** – ashamed, humiliated  
+- 😔 **Lonely** – isolated, abandoned  
+- 🧐 **Curious** – interested, inquisitive  
+- 😞 **Guilty** – remorseful, regretful  
+- 😒 **Jealous** – envious  
+- 🤢 **Sick** – ill, unwell  
+- 💪 **Determined** – focused, persistent
+
+---
+
+## 🧠 How It Works
+
+- **Emotion Mapping**:  
+  A dictionary (`emotion_aliases`) maps many emotion synonyms to standard emotion categories.
+
+- **Fuzzy Matching**:  
+  Uses `difflib.get_close_matches()` to detect emotions even with slight spelling mistakes.
+
+- **Visual Feedback**:  
+  Changes the background color of a `tk.Canvas` and draws emojis dynamically.
+
+- **User Interface**:  
+  Simple Tkinter UI with input box, button, and status label.
+
+---
+
+## 🛠️ File Structure
+
+- `emotion_color_interface.py` – Main application file  
+- `README.md` – Project description  
+- `screenshot.png` – Optional screenshot of the app
 
