@@ -17,7 +17,4 @@ Enter an emotion like “happy”, “sad”, or “angry” and see your mood v
 
 ---
 
-## 📷 Preview
-
-> (You can add a screenshot in the project root, e.g., `screenshot.png`)
 
