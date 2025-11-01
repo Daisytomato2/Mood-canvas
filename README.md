@@ -39,6 +39,7 @@ Enter an emotion like “happy”, “sad”, or “angry” and see your mood v
 - 🤢 **Sick** – ill, unwell  
 - 💪 **Determined** – focused, persistent
 
+![image](https://github.com/user-attachments/assets/f6585394-71aa-48a5-8db6-184e0d337e3b)
 
 
 ##  How It Works
@@ -48,12 +49,15 @@ Enter an emotion like “happy”, “sad”, or “angry” and see your mood v
 
 - **Fuzzy Matching**:  
   Uses `difflib.get_close_matches()` to detect emotions even with slight spelling mistakes.
+![image](https://github.com/user-attachments/assets/cfe3f530-4d23-4437-bd31-0a770e8636a3)
 
 - **Visual Feedback**:  
   Changes the background color of a `tk.Canvas` and draws emojis dynamically.
 
 - **User Interface**:  
   Simple Tkinter UI with input box, button, and status label.
+
+![image](https://github.com/user-attachments/assets/56821fa6-da71-4535-9804-3e054836cf61)
 
 
 
